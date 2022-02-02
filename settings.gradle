@@ -1,0 +1,7 @@
+include 'desktop', 'core'
+include ':EntityComponentSystem'
+include ':asd'
+include 'hjt_entityComponentSystem'
+include 'ECS'
+
+include ':EntityComponentSystem'
