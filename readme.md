@@ -14,9 +14,7 @@ The state pattern is also implemented in the state package, GameStateHandler.jav
 However my main focus and goal was just creating something that tested the ECS I made.
 
 ## Task 4: Theory
-### 4.A) For the patterns listing in Step3, which are architectural patterns, and which are design
-patterns? What are the relationships and differences of architectural patterns and design
-Patterns?
+### 4.A) For the patterns listing in Step3, which are architectural patterns, and which are design patterns? What are the relationships and differences of architectural patterns and design patterns?
 
 - Observer - Design Pattern
 - State - Design pattern
@@ -27,8 +25,7 @@ Patterns?
 - Pipe and filter - Architectural pattern
 Architectural patterns are at planning phase time while design patterns are at building phase time, so when you plan the architecture of the program you can use architectural patterns that will describe the structure of the systems, which could be used as a blueprint. While the design pattern is an actual implementation.
 
-### 4.b) How is the pattern you chose realized in your code? (Which class(es) works as the
-pattern you chose?)
+### 4.b) How is the pattern you chose realized in your code? (Which class(es) works as the pattern you chose?)
 
 - For the ECS pattern, I have a few main classes that describe the rest of the implementations. 
 - GameObject - The Entity, which has a list of Components
@@ -49,9 +46,9 @@ pattern you chose?)
 
 The state pattern is realized with the Abstract class State, and a GameStateHandler which handles which transitions to new states. Main Menu state is the only state in this assignment, as I did not really focus on completing it, but rather learning ECS, and focusing most of my time on that.
 
-### 4.c) Is there any advantages in using this pattern in this program? (What are the
-advantages/disadvantages?)
-In this assignment, the enemy and player are such simple objects that a full blown ECS pattern is most likely an overkill, however it would simplify extending the game if I wanted more enemies with different attributes, as much time as I spent on the ECS implementation, adding new objects turned out to be very simple.
+### 4.c) Is there any advantages in using this pattern in this program? (What are the advantages/disadvantages?)
+
+  In this assignment, the enemy and player are such simple objects that a full blown ECS pattern is most likely an overkill, however it would simplify extending the game if I wanted more enemies with different attributes, as much time as I spent on the ECS implementation, adding new objects turned out to be very simple.
 
 The biggest advantage of an ECS is having wide hierarchies rather than deep, which turns into a inheritance and polymorphism hell. As such Extensibility and Modifiability is a huge advantage. The downside is that it can be quite time consuming implementing, especially from scratch, and in a language where you don’t have complete control of memory, which can end up hurting performance.
 In a simple game like this with a quick update loop, the game would probably perform better.
