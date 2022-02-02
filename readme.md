@@ -18,13 +18,13 @@ However my main focus and goal was just creating something that tested the ECS I
 patterns? What are the relationships and differences of architectural patterns and design
 Patterns?
 
-Observer - Design Pattern
- State - Design pattern
- Template Method - Design pattern
- Model View Controller - Architectural pattern
- Abstract Factory - Design pattern
- Entity Component System - Architectural pattern
- Pipe and filter - Architectural pattern
+- Observer - Design Pattern
+- State - Design pattern
+- Template Method - Design pattern
+- Model View Controller - Architectural pattern
+- Abstract Factory - Design pattern
+- Entity Component System - Architectural pattern
+- Pipe and filter - Architectural pattern
 Architectural patterns are at planning phase time while design patterns are at building phase time, so when you plan the architecture of the program you can use architectural patterns that will describe the structure of the systems, which could be used as a blueprint. While the design pattern is an actual implementation.
 
 ### 4.b) How is the pattern you chose realized in your code? (Which class(es) works as the
