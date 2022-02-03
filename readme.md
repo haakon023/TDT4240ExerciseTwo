@@ -1,3 +1,7 @@
+## Controls
+WASD to move
+Left mouse click to shoot and aim
+
 ## Task 1
 I just made a new program where I could test a bit more, and enjoy the process. So I made a player that runs around and shoots AI’s. I did not bother to have any mechanics of resetting or letting the player die, but rather just an infinite shooter of some sorts.
 
